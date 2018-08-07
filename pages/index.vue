@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     <div>
+      <img class="book-cover" src="~/assets/miraculous.jpeg" alt="Book cover of Miraculous by Jessica Redman">
       <h1 class="title">Jessica Redman</h1>
       <div class="links">
         <a href="https://twitter.com/jess__red?lang=en" target="_blank" class="button--green">Twitter</a>
@@ -25,6 +26,10 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.book-cover {
+  width: 350px;
 }
 
 .title {
