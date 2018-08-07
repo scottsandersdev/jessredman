@@ -15,6 +15,14 @@
 
 export default {
   components: {
+  },
+  head () {
+    return {
+      title: "Jessica Redman",
+      meta: [
+        { hid: 'description', name: 'description', content: 'Jessica Redman - author of Miraculous' }
+      ]
+    }
   }
 }
 </script>
