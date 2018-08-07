@@ -37,16 +37,30 @@ export default {
 }
 
 .book-cover {
-  width: 350px;
+  width: 200px;
 }
 
+@media only screen and (min-width: 999px) {
+    .book-cover {
+      width: 300px;
+    }
+}
+
+
 .title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
   color: #35495e;
+  display: block;
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
+  font-size: 60px;
+  font-weight: 300;
   letter-spacing: 1px;
+  margin: 10px 0;
+}
+
+@media only screen and (min-width: 999px) {
+    .title {
+      font-size: 100px;
+    }
 }
 
 .subtitle {
