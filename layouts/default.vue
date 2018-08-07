@@ -22,12 +22,13 @@ html {
 }
 
 .button--green {
-  display: inline-block;
   border-radius: 4px;
   border: 1px solid #3b8070;
   color: #3b8070;
-  text-decoration: none;
+  display: inline-block;
+  margin-left: 10px;
   padding: 10px 30px;
+  text-decoration: none;
 }
 
 .button--green:hover {

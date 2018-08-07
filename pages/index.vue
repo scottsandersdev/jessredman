@@ -1,33 +1,19 @@
 <template>
   <section class="container">
     <div>
-      <app-logo/>
-      <h1 class="title">
-        jessredman
-      </h1>
-      <h2 class="subtitle">
-        Nuxt.js project
-      </h2>
+      <h1 class="title">Jessica Redman</h1>
       <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
+        <a href="https://twitter.com/jess__red?lang=en" target="_blank" class="button--green">Twitter</a>
+        <a href="https://www.goodreads.com/book/show/35650630-the-miraculous" target="_blank" class="button--green">Goodreads</a>
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
 
 export default {
   components: {
-    AppLogo
   }
 }
 </script>
