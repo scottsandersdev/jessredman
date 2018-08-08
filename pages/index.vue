@@ -2,7 +2,7 @@
   <section class="container">
     <div>
       <img class="book-cover" src="~/assets/miraculous.jpeg" alt="Book cover of Miraculous by Jessica Redman">
-      <h1 class="title">Jessica Redman</h1>
+      <h1 class="title">Jess Redman</h1>
       <div class="links">
         <a href="https://twitter.com/jess__red?lang=en" target="_blank" class="button--green">Twitter</a>
         <a href="https://www.goodreads.com/book/show/35650630-the-miraculous" target="_blank" class="button--green">Goodreads</a>
