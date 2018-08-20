@@ -77,6 +77,9 @@ export default {
   width: 100px;
 }
 
+.test{
+  cursor: pointer;
+}
 
 .homepage-link__image--sunflower {
   width: 200px;
