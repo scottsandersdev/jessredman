@@ -1,13 +1,45 @@
 <template>
-  <section class="container">
-    <div>
-      <img class="book-cover" src="~/assets/miraculous.jpeg" alt="Book cover of Miraculous by Jessica Redman">
-      <h1 class="title">Jess Redman</h1>
-      <div class="links">
-        <a href="https://twitter.com/jess__red?lang=en" target="_blank" class="button--green">Twitter</a>
-        <a href="https://www.goodreads.com/book/show/35650630-the-miraculous" target="_blank" class="button--green">Goodreads</a>
-      </div>
-    </div>
+  <section class="homepage">
+    <nav>
+      <ul class="homepage-nav">
+        <li class="homepage-link--sunflower">
+          <img class="homepage-link__image--sunflower" src="~assets/sunflower.png" alt="">
+          <p class="homepage-link--text">About Me</p>
+        </li>
+        <li class="homepage-link--book">
+          <img class="homepage-link__image--book" src="~assets/book.png" alt="">
+          <p class="homepage-link--text">Books</p>
+        </li>
+        <li class="homepage-link">
+          <img class="homepage-link__image" src="~assets/bicycle.png" alt="">
+          <p class="homepage-link--text">Author Visits</p>
+        </li>
+        <!-- <li class="homepage-link">
+          <img class="homepage-link__image" src="~assets/spyglass.png" alt="">
+          <p class="homepage-link--text">News/Media</p>
+        </li>
+        <li class="homepage-link">
+          <img class="homepage-link__image" src="~assets/robin.png" alt="">
+          <p class="homepage-link--text">Contact</p>
+        </li>
+        <li class="homepage-link">
+          <img class="homepage-link__image" src="~assets/lantern.png" alt="">
+          <p class="homepage-link--text">For Educators</p>
+        </li>
+        <li class="homepage-link">
+          <img class="homepage-link__image" src="~assets/umbrella.png" alt="">
+          <p class="homepage-link--text">Blog</p>
+        </li>
+        <li class="homepage-link">
+          <img class="homepage-link__image" src="~assets/bee.png" alt="">
+          <p class="homepage-link--text">Events</p>
+        </li>
+        <li class="homepage-link">
+          <img class="homepage-link__image" src="~assets/pinwheel.png" alt="">
+          <p class="homepage-link--text">For Readers</p>
+        </li> -->
+      </ul>
+    </nav>
   </section>
 </template>
 
@@ -28,15 +60,34 @@ export default {
 </script>
 
 <style>
-.container {
-  min-height: 100vh;
+.homepage {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
-.book-cover {
+.homepage-nav {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+.homepage-link__image {
+  width: 100px;
+}
+
+
+.homepage-link__image--sunflower {
+  width: 200px;
+}
+
+.homepage-link--book {
+  align-self: flex-end;
+  margin: 0 200px;
+}
+
+.homepage-link__image--book {
   width: 200px;
 }
 
@@ -45,7 +96,6 @@ export default {
       width: 300px;
     }
 }
-
 
 .title {
   color: #35495e;

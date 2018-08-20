@@ -1,5 +1,8 @@
 <template>
   <div>
+    <header class="header">
+      <img class="logo" src="~/assets/logo.png" alt="Site Logo">
+    </header>
     <nuxt/>
   </div>
 </template>
@@ -16,39 +19,24 @@ html {
   box-sizing: border-box;
 }
 
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 400px;
+}
+
 *, *:before, *:after {
   box-sizing: border-box;
   margin: 0;
 }
 
-.button--green {
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  display: inline-block;
-  margin-left: 10px;
-  padding: 10px 30px;
-  text-decoration: none;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
+ul {
+  list-style: none;
+  padding: 0;
 }
 </style>
 
